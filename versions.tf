@@ -13,7 +13,8 @@ terraform {
   required_version = ">= 0.15"
 
   backend "remote" {
-    organization = "<YOUR_TERRAFORM_ORG>"
+    hostname     = "ptfe.havananet.us"
+    organization = "havananet"
 
     workspaces {
       name = "sentinel-example"
