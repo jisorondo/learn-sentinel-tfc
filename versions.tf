@@ -13,7 +13,7 @@ terraform {
   required_version = ">= 0.15"
 
   backend "remote" {
-    hostname     = "ptfe.havananet.us"
+    hostname     = "xtfe.havananet.us"
     organization = "havananet"
 
     workspaces {
